@@ -1,0 +1,1 @@
+<a class="btn btn-waves blue-pattern btn-right-align" href="{{ $href }}">{{ isset($text) ? $text : 'Cadastrar' }}</a>

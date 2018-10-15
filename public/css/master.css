@@ -1,0 +1,145 @@
+.content {
+    margin-top: 20px;
+    margin-left: 23rem;
+    margin-right: 4rem;
+}
+
+.side-nav {
+    font-size: 1rem;
+}
+
+.side-nav li > a {
+    color: white;
+}
+
+/*#big-menu-home a {*/
+    /*width: 100%;*/
+/*}*/
+
+.page-title {
+    font-size: 1.5rem;
+}
+
+.btn-right-align {
+    margin-top: 15px;
+    float: right;
+}
+
+.btn-left-align {
+    margin-top: 15px;
+    float: left;
+}
+
+.error-message {
+    color: red;
+     margin-left: 10px;
+}
+
+.btn-left-align:hover,
+.btn-right-align:hover {
+    background-color: #7986cb;
+}
+
+.btn-left-align:focus,
+.btn-right-align:focus {
+    background-color: #7986cb;
+}
+
+.blue-pattern {
+    background-color: #3949ab;
+}
+
+.btn-right-align:hover {
+    background-color: #7986cb;
+}
+
+.blue-pattern-secundary {
+    background-color: #7986cb;
+}
+
+/* Data Tables Style */
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: none;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #3949ab;
+    opacity: 0.8;
+    border: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: white!important;
+}
+
+.request-feeback {
+    width: 100%;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.error-feedback {
+    background-color: red;
+}
+
+.success-feedback {
+    background-color: green;
+}
+
+table.dataTable tbody {
+    background-color: red!important;
+}
+
+table.table-pattern tbody tr td:first-child {
+    text-align: center;
+    background-color: white!important;
+}
+
+table.dataTable.row-border tbody tr:first-child th,
+table.dataTable.row-border tbody tr:first-child td,
+table.dataTable.display tbody tr:first-child th,
+table.dataTable.display tbody tr:first-child td {
+    border-top: 1px solid #ddd;
+    background-color: white;
+}
+
+.form-option-grid {
+    display: inline-block;
+}
+
+.img-user {
+    margin: 0 auto;
+}
+
+.select2-group {
+    padding-left: 0px!important;
+    margin-top: 1em;
+}
+
+.select2-group .input-field {
+    padding-left: 0px!important;
+}
+
+/******************************
+ *        Media queries       *
+*******************************/
+
+@media screen and (max-width: 992px) {
+    .content {
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}

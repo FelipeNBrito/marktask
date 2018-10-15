@@ -1,0 +1,1 @@
+<a class="btn btn-waves blue-pattern btn-right-align modal-trigger" href="{{ $href }}">{{ (isset($text)) ? $text : 'Adicionar' }}</a>

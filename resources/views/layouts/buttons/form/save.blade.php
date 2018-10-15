@@ -1,0 +1,1 @@
+<button type="submit" class="btn btn-waves blue-pattern btn-right-align">{{ (isset($text)) ? $text : 'Salvar' }}</button>

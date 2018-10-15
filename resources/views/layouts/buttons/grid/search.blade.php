@@ -1,0 +1,1 @@
+<a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visualizar" href="{{ $href }}"><i class="material-icons" style="color:#3949ab; font-weight: bolder;">search</i></a>

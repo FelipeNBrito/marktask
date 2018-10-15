@@ -1,0 +1,21 @@
+.clockpicker-canvas-bearing {
+    fill: #64B5F6 !important;
+}
+.clockpicker-canvas line {
+    stroke: #64B5F6 !important;
+}
+.clockpicker-canvas-bg {
+    fill: #64B5F6 !important;
+}
+.picker__day.picker__day--today {
+    color: #64B5F6 !important;
+}
+.picker__close, .picker__today, .picker__clear {
+    color: #64B5F6 !important;
+}
+.picker__date-display {
+    background-color: #64B5F6 !important;
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+    background-color: #64B5F6 !important;
+}

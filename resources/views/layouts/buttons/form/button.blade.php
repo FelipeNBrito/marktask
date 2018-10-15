@@ -1,0 +1,1 @@
+<a href="{{ $href }}" class="btn btn-waves {{ $classes }}" style="{{ $style }}" onclick="{{ $onclick }}">{{ $text }}</a>

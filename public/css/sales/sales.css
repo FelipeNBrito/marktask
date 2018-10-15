@@ -1,0 +1,4 @@
+.product-box:not(:last-child) {
+    border-bottom: 1px solid black;
+    margin-bottom: 2em;
+}
